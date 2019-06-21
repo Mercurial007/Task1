@@ -4,7 +4,7 @@ stage('Initilize'){
  env.PATH = "${mavenhome}/bin:${env.PATH}"
 }
 stage('clone'){
-git branch: 'master'
+git branch: 'master',
 credentialsId: '7b25d3fe-425b-4b0b-bfb6-827587a7fcb8',
 url: 'https://github.com/Mercurial007/Task1.git'
 }
