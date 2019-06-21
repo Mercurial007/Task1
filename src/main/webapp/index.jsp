@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello World! Task</h2>
+<h2>Task</h2>
 </body>
 </html>
